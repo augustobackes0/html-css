@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+            border
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr, th {
+            position: sticky;
+            top: -1px;
+            background-color:   gray;
+        }
+
+
+    .numero {
+        text-align: center;
+    }
+
+    .força {
+        
+    }
+    </style>
+</head>
+<body>
+    <h1> Uso de tabelas grandes</h1>
+    <!--
+    ANATOMIA PARA TABELAS GRANDES
+    TABLES
+        CAPTION
+        THEAD
+            TR,TD,TH
+        TBODY
+             TR,TD,TH
+        TFOOT
+             TR,TD,TH   
+    -->
+             <TABle>
+                <caption>População das unidades federativas</caption>
+                <THEad>
+                    <TR>
+                        <TH scope="col">ESTADO</TH>
+                        <th scope="col" style="width: 50px;">POPULAÇÂO</th>
+                    </TR>
+                </THEad>
+                <TBody>
+                    <tr>
+                        <td>São Paulo</td>
+                        <td class="numero">46 081 801</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Minas Gerais
+                        </td>
+                        <td class="numero">21 393 441</td>
+                    </tr>
+                </TBody>
+                <TFOOt>
+                    <tr>
+                        <th scope="row">Total de habitantes</th>
+                        <td><strong>0000000</strong></td>
+                    </tr>
+                </TFOOt>
+             </TABle>
+
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus minus velit vero soluta rem voluptatibus, dolore a neque sit! Sint magnam obcaecati cumque voluptates mollitia similique architecto laborum tenetur natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam omnis autem eaque tempora aut fugiat hic, magni, modi, dolor tenetur! Deserunt, quam quae! Non natus itaque id porro modi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab iusto aspernatur ad a laboriosam excepturi cum aut blanditiis voluptatum expedita sed explicabo asperiores dolor nemo, dignissimos, hic accusantium, ipsam praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati possimus nulla quae nisi dignissimos! Nisi officiis iste ducimus! In velit ad laboriosam quis nostrum, sapiente debitis vero eum soluta adipisci.</p> 
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus minus velit vero soluta rem voluptatibus, dolore a neque sit! Sint magnam obcaecati cumque voluptates mollitia similique architecto laborum tenetur natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam omnis autem eaque tempora aut fugiat hic, magni, modi, dolor tenetur! Deserunt, quam quae! Non natus itaque id porro modi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab iusto aspernatur ad a laboriosam excepturi cum aut blanditiis voluptatum expedita sed explicabo asperiores dolor nemo, dignissimos, hic accusantium, ipsam praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati possimus nulla quae nisi dignissimos! Nisi officiis iste ducimus! In velit ad laboriosam quis nostrum, sapiente debitis vero eum soluta adipisci.</p>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus minus velit vero soluta rem voluptatibus, dolore a neque sit! Sint magnam obcaecati cumque voluptates mollitia similique architecto laborum tenetur natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam omnis autem eaque tempora aut fugiat hic, magni, modi, dolor tenetur! Deserunt, quam quae! Non natus itaque id porro modi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab iusto aspernatur ad a laboriosam excepturi cum aut blanditiis voluptatum expedita sed explicabo asperiores dolor nemo, dignissimos, hic accusantium, ipsam praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati possimus nulla quae nisi dignissimos! Nisi officiis iste ducimus! In velit ad laboriosam quis nostrum, sapiente debitis vero eum soluta adipisci.</p>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus minus velit vero soluta rem voluptatibus, dolore a neque sit! Sint magnam obcaecati cumque voluptates mollitia similique architecto laborum tenetur natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam omnis autem eaque tempora aut fugiat hic, magni, modi, dolor tenetur! Deserunt, quam quae! Non natus itaque id porro modi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab iusto aspernatur ad a laboriosam excepturi cum aut blanditiis voluptatum expedita sed explicabo asperiores dolor nemo, dignissimos, hic accusantium, ipsam praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati possimus nulla quae nisi dignissimos! Nisi officiis iste ducimus! In velit ad laboriosam quis nostrum, sapiente debitis vero eum soluta adipisci.</p>
+</body>
+</html>
