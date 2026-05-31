@@ -22,3 +22,7 @@ menu {
 article::after {
     content: 'Esse artigo foi impresso atraves do site www;;;';
 }
+
+article {
+    width: 100%;
+}
