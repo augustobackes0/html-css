@@ -29,7 +29,7 @@ menu > ul {
 }
 
 menu > ul > li > a {
-    display: block;
+    display: none;
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -40,6 +40,19 @@ menu > ul > li > a {
 
 menu > ul > li > a:hover {
     background-color: gray;
+}
+
+#burguer {
+    background-color: rgb(63, 63, 63);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#burguer:hover {
+    background-color: white;
+    color: black;
 }
 
 main {
