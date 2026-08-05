@@ -10,8 +10,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     line-height: 1.5em;
-    width: 100vw;
-    height: 100vh;
+
 }
 
 p, h1, h2 {
@@ -50,6 +49,7 @@ article.media-text {
 article > div.text {
     flex: 1 1 500px;
     border: 2px dashed blue;
+    display: flex;
 }
 
 article > div.media {
@@ -65,9 +65,9 @@ div.media > img {
 }
 
 div.media > iframe {
-    
+    display: block;
     margin: auto;
-    padding: 0px 20px;
-
-    width: 90vw;
+    
+    width: 90%;
+    
 }
